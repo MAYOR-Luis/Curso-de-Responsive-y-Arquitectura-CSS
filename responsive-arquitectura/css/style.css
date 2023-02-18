@@ -1,0 +1,50 @@
+[class^="box"]{
+    margin: 3rem auto;
+    background-color: orangered;
+}
+.box{
+width: 300px;
+height: 300px;
+    
+}
+
+.box-flexible{
+    width: 50%;
+    height: 20vh;
+}
+
+.box-flexible-2{
+    max-width: 960px;
+    min-width: 280px;
+    max-height: 480px;
+    min-height: 280px;
+}
+.box-flexible-3{
+    max-width: 960px;
+    min-width: 280px;
+    max-height: 480px;
+    min-height: 280px;
+    width: 300px;
+    height: 300px;
+}
+.box-flexible-4{
+    max-width: 960px;
+    min-width: 280px;
+    max-height: 480px;
+    min-height: 280px;
+    width: 50%;
+    height: 20vh;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.kitten-border{
+    border: medium solid #e51;
+    display: flex;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+}
